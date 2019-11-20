@@ -397,7 +397,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"104.238.179.166", "199.247.22.141", ""};
+static const string mainnet_seeds[] = {"dns0.curiumofficial.com", "dns1.curiumofficial.com", ""};
 static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
 
